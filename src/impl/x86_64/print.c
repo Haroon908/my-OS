@@ -71,6 +71,7 @@ void print_str(char* str) {
         char character = (uint8_t) str[i];
 
         if (character == '\0') {
+            print_newline();
             return;
         }
 
